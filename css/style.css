@@ -123,7 +123,7 @@ h5,
 h6 {
     font-family:'josefin sans', sans-serif;
     font-weight: 700;
-    color: #1f2a4b;
+    color: #bb491f;
     margin: 0 0 10px 0;
     line-height: 1.4;
     letter-spacing: -.01em
@@ -232,7 +232,7 @@ a {
 .nav>li>a:hover,
 li>a:focus,
 li>a:hover {
-    background-color: transparent;
+    background-color: white;
     border-color: transparent
 }
 
@@ -473,8 +473,8 @@ p.large {
 }
 
 .grdnt-yellow:not(.overly) {
-    background-image: -webkit-linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
-    background-image: linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%)
+    background-image: -webkit-linear-gradient(130deg, #f7faa2 0, #7ede52 51%, #5b9e2b 100%);
+    background-image: linear-gradient(130deg, #f7faa2 0, #7ede52 51%, #5b9e2b 100%);
 }
 .grdnt-blue.overly:before {
     background-image: -webkit-linear-gradient(90deg, #5722ff 0, #8103ff 51%, #5722ff 100%);
@@ -501,8 +501,8 @@ p.large {
     background-image: linear-gradient(45deg, #00c9fd 0, #81ee8e 51%, #00c9fd 100%)
 }
 .grdnt-yellow.overly:before {
-    background-image: -webkit-linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
-    background-image: linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%)
+    background-image: -webkit-linear-gradient(130deg, #ffa159 0, #bb491f 0, #ffa159 50%);
+    background-image: linear-gradient(130deg, #ffa159 0, #bb491f 0, #ffa159 50%)
 }
 
 a[class*=grdnt-],
@@ -1319,26 +1319,26 @@ input.btn:hover {
 .grad-blue .faq .more-less,
 .grad-blue .pricing-btn .toggler--is-active,
 .grad-blue .team-mem-col .team-hover .team-hover-content a:hover i {
-    background-image: linear-gradient(90deg, #5722ff 0, #8103ff 100%);
-    background-image: -webkit-linear-gradient(90deg, #5722ff 0, #8103ff 100%);
+    background-image: linear-gradient(90deg, #bb491f 0, #ff9c22 100%);
+    background-image: -webkit-linear-gradient(90deg, #bb491f 0, #ff9c22 100%);
 }
 
 .grad-blue .owl-item:after {
-    background: linear-gradient(135deg, #5722ff 0, #8103ff 100%);
-    background: -webkit-linear-gradient(135deg, #5722ff 0, #8103ff 100%)
+    background: linear-gradient(135deg, #5722ff 0, #ff9c22 100%);
+    background: -webkit-linear-gradient(135deg, #5722ff 0, #ff9c22 100%)
 }
 .grad-yellow .clip-txt,
 .grad-yellow .owl-item .profile-img:before,
 .grad-yellow .faq .more-less,
 .grad-yellow .pricing-btn .toggler--is-active,
 .grad-yellow .team-mem-col .team-hover .team-hover-content a:hover i {
-    background-image: linear-gradient(130deg, #ffa159 0, #ff39b4 100%);
-    background-image: -webkit-linear-gradient(130deg, #ffa159 0, #ff39b4 100%);
+    background-image: linear-gradient(130deg, #ffa159 0, #e5f2a5 100%);
+    background-image: -webkit-linear-gradient(130deg, #ffa159 0, #e5f2a5 100%);
 }
 
 .grad-yellow .owl-item:after {
-    background: linear-gradient(130deg, #ffa159 0, #ff39b4 100%);
-    background: -webkit-linear-gradient(130deg, #ffa159 0, #ff39b4 100%)
+    background: linear-gradient(130deg, #ffa159 0, #e5f2a5 100%);
+    background: -webkit-linear-gradient(130deg, #ffa159 0, #e5f2a5 100%)
 }
 
 .feat-slide .owl-item:after {
@@ -1706,7 +1706,7 @@ div[class*=grdnt] .screen .owl-dot.active {
    ========================================================================== */
 .navbar-custom {
     border: none;
-    padding: 35px 0;
+    padding: 20px 0;
     -webkit-transition: padding .5s;
     -moz-transition: padding .5s;
     transition: padding .5s;
@@ -1853,8 +1853,8 @@ div[class*=grdnt] .screen .owl-dot.active {
    ========================================================================== */
 .hero {
     position: relative;
-    background:#300f49;
-    padding-top: 150px;
+    background:#ffbda8;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 .hero.style-curve{
@@ -1990,7 +1990,7 @@ div[class*=grdnt] .screen .owl-dot.active {
 }
 .feat-tag .list{
     display: inline-block;
-    background: #F0F1FF;
+    background: #fff5f0;
     border-radius: 50px;
     padding: 10px 30px;
     margin: 0 10px 20px 10px;
