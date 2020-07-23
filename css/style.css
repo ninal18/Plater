@@ -289,7 +289,7 @@ p.large {
 }
 
 .light {
-    color: #fff
+    color: #000
 }
 
 .light .icon,
@@ -300,7 +300,7 @@ p.large {
 .light h4,
 .light h5,
 .light h6 {
-    color: #fff
+    color: #000
 }
 
 .icon {
@@ -2146,8 +2146,8 @@ div[class*=grdnt] .screen .owl-dot.active {
 .pricing .pricing-table {
     transition: .5s;
     -webkit-transition: .5s;
-    border-radius: 10px;
-    padding: 3px;
+    border-radius: 20px;
+    padding: 8px;
 }
 .pricing .pricing-table:not([class*="grdnt-"]) {
     background:#E5E5E5;
@@ -2171,6 +2171,12 @@ div[class*=grdnt] .screen .owl-dot.active {
 }
 .pricing .pricing-footer .btn{
     width: 80%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 /* ==========================================================================
    11.0 Team Styling
@@ -2453,6 +2459,65 @@ div[class*=grdnt] .screen .owl-dot.active {
     color: #fff;
 }
 
+/* Popup box BEGIN */
+.hover_bkgr_fricc{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+/* Popup box ends */
+
 /* ==========================================================================
    16.0 Footer Styling
    ========================================================================== */
@@ -2690,7 +2755,10 @@ div[class*=grdnt] .screen .owl-dot.active {
     }
     .res-margin,
     .res-margin-sm {
-        margin-bottom: 50px
+        display: block;
+        margin-left: 50px
+        margin-right: 50px;
+      ;
     }
     .style-wave-2{
         padding-bottom: 0!important;
